@@ -30,6 +30,39 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.pic-image:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+    </style>
 </head>
 
 <body>
@@ -185,21 +218,24 @@
             </div>
             <div class="row g-2">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded text-center p-4">
-                        <img class="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/cartoon-clau.png" alt="">
+                    <div class="team-item rounded text-center p-4 ">
+                        <img class="img-fluid border rounded-circle w-85 p-2 mb-4" src="img/cartoon-clau.png" alt="">
+
                         <div class="team-text">
                             <div class="team-title">
-                                <h6>Claudia Negri Ribalta</h6>
-                                <span style="line-height: 1" > Computer Science, Université Paris 1 Panthéon-Sorbonne </span>
+                                <h4>Claudia Negri Ribalta</h4>
+                                <span style="line-height: 1" > Doctor in Computer Science, Université Paris 1 Panthéon-Sorbonne </span>
+                                <span> ... </span>
                             </div>
+
                             <div class="team-social">
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa">Github</i></a>
-                            </div>
-                        </div>
+                                 <p> She investigates how public organizations use AI to tackle corruption in public procurement. She holds a MSc in Management of Public Organizations and a BSc in Business Administration from Bocconi University. <a href="">Read More</a> </p>
+                            </div>                       
+                         </div>
                     </div>
-                </div>                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                </div>                
+                
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded text-center p-4">
                         <img class="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/cartoon-clau.png" alt="">
                         <div class="team-text">
@@ -208,28 +244,14 @@
                                 <span style="line-height: 1" > Computer Science, Université Paris 1 Panthéon-Sorbonne </span>
                             </div>
                             <div class="team-social">
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa">Github</i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded text-center p-4">
-                        <img class="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/cartoon-clau.png" alt="">
-                        <div class="team-text">
-                            <div class="team-title">
-                                <h6>Nathalie</h6>
-                                <span style="line-height: 1" > Computer Science, Université Paris 1 Panthéon-Sorbonne </span>
-                            </div>
-                            <div class="team-social">
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle" href=""><i class="fab fa">Github</i></a>
+                                <p>Carolina Gerli is currently a PhD Candidate at the University of Bologna. She investigates how public organizations use AI to tackle corruption in public procurement. </p>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded text-center p-4">
                         <img class="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/team-2.jpg" alt="">
